@@ -110,7 +110,24 @@ header {
     font-size: 10px;
     right: -7px;
  }
- 
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+ footer {
+    background-color: $primary;
+    color: #fff;
+    width: $width100;
+    height: 25px;
+    bottom:0;
+    display: block;
+ }
+
+ footer .footer-copyright {
+     text-align: center;
+ }
+/*--------------------------------------------------------------
+# Shopping Listing Page
+--------------------------------------------------------------*/  
 aside {
    width: 200px;
    border-right: 1px solid #d5d5d5;
@@ -289,11 +306,17 @@ section div.sort-by .sort-by-opt.active {
     border: none;
     background-color: none;
 }
-footer {
-    background-color: $primary;
-    width: $width100;
-    height: 25px;
-    bottom:0;
-    display: block;
- }
- 
+/*--------------------------------------------------------------
+# Cart Page
+--------------------------------------------------------------*/
+section.content-cart {
+    width:100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+section div.cart-items-container {
+   width:70%;
+
+}
+
