@@ -117,9 +117,10 @@ header {
     background-color: $primary;
     color: #fff;
     width: $width100;
-    height: 25px;
+    height: 30px;
     bottom:0;
     display: block;
+    position: absolute;
  }
 
  footer .footer-copyright {
@@ -320,3 +321,62 @@ section div.cart-items-container {
 
 }
 
+.cart-items-container {
+    margin: 0 auto;
+    min-width: 978px;
+    max-width: 1680px;
+    padding: 8px;
+    background-color: #fff;
+}
+.cart-items-container .cart-box {
+    width: 100%;
+    padding-bottom: 50px;
+}
+.cart-items-container .cart-box .cart-title {
+    font-size: 2opx;
+    font-weight: 600;
+}
+.cart-items-container .cart-box .cart-item-empty{
+    text-align: center;
+    padding: 30px 0 36px;
+    background: #fff;
+}
+.cart-items-container .cart-box .cart-item-empty img {
+    height: 162px;
+}
+.cart-items-container .cart-box .cart-item-empty .missing-text {
+    display: block;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.cart-items-container .cart-box .cart-item-empty .login-text {
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.cart-items-container .cart-box .cart-item-empty .login-button {
+    display: inline-block;
+    border-radius: 2px;
+    color: #212121;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: box-shadow .2s ease;
+    vertical-align: super;
+    background: #fff;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 400;
+    padding: 12px 72px;
+    background-color: #fb641b;
+}
+.cart-items-container .cart-box .cart-item-empty .login-button span{
+
+    border: none;
+    color: #fff;
+}
